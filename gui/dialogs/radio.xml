@@ -90,7 +90,7 @@
             <label>999.999</label>
             <halign>center</halign>
             <format>%3.3f</format>
-            <property>/instrumentation/comm/frequencies/selected-mhz</property>
+            <property>/instrumentation/comm[0]/frequencies/selected-mhz</property>
             <live>1</live>
         </text>
 
@@ -118,7 +118,7 @@
             <row>0</row>
             <col>3</col>
             <name>comm1</name>
-            <property>/instrumentation/comm/frequencies/standby-mhz</property>
+            <property>/instrumentation/comm[0]/frequencies/standby-mhz</property>
             <binding>
                 <command>dialog-apply</command>
             </binding>
@@ -129,7 +129,7 @@
             <col>4</col>
             <pref-width>30</pref-width>
             <pref-height>30</pref-height>
-            <property>/instrumentation/comm/volume</property>
+            <property>/instrumentation/comm[0]/volume</property>
             <min>0.0</min>
             <max>1.0</max>
             <wrap>false</wrap>
